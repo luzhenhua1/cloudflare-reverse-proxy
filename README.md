@@ -45,6 +45,6 @@
 
 更多使用方法也可以参考https://github.com/ytanck/vercel-reverse-proxy 
 
-## 另外一种方法也是用cloudflare的worker，但不用在链接后面拼/proxy/xxx,直接用部署后的链接或自定义域名就可以代理
+## 另外一种方法也是用cloudflare的worker，但不用在链接后面拼/proxy/xxx,非万能代理。指定链接代理，直接用部署后的链接或自定义域名就可以代理
 
 仓库地址：[cloudflare-worker-proxy](https://github.com/ytanck/cloudflare-worker-proxy)供大家参考
