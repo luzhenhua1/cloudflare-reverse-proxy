@@ -4,7 +4,7 @@
 
 使用方法为在任意url前面加上https://你的域名/proxy/ 即可使用cloudflare加速。
 
-例如https://你的域名/proxy/https://raw.githubusercontent.com/gaboolic/cloudflare-reverse-proxy/main/worker.js
+例如https://你的域名/proxy/https://raw.githubusercontent.com/ytanck/cloudflare-reverse-proxy/main/worker.js
 
 本人另外一个项目是基于[vercel](https://vercel.com/)的反向代理，仓库地址https://github.com/ytanck/vercel-reverse-proxy 供大家参考
 
