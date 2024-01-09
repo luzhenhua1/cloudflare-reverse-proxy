@@ -33,8 +33,8 @@
 
 在任意url前面加上https://你的域名/proxy/ 即可使用cloudflare加速。
 
-例1 https://github.com/gaboolic 前面加上https://你的域名/proxy/
-![demo1](img/demo1.png)
+例1 https://github.com/ytanck 前面加上https://你的域名/proxy/
+
 例2 调用openai的post接口，https://api.openai.com/v1/chat/completions 前面加https://你的域名/proxy/
 ![demo2](img/demo2.png)
 
