@@ -6,7 +6,7 @@
 
 例如https://你的域名/proxy/https://raw.githubusercontent.com/gaboolic/cloudflare-reverse-proxy/main/worker.js
 
-本人另外一个项目是基于[vercel](https://vercel.com/)的反向代理，仓库地址https://github.com/gaboolic/vercel-reverse-proxy 供大家参考
+本人另外一个项目是基于[vercel](https://vercel.com/)的反向代理，仓库地址https://github.com/ytanck/vercel-reverse-proxy 供大家参考
 
 # 详细步骤
 
@@ -28,7 +28,6 @@
 
 免费域名申请：https://secure.nom.za/  https://nic.eu.org/   https://nic.ua
 
-不需要申请，link域名0元免费1年：dynadot.com
 
 # 使用方法
 
@@ -44,4 +43,8 @@
 
 所以使用的时候只需要设置一下openai.api_base="https://你的域名/proxy/https://api.openai.com/v1" 就可以了
 
-更多使用方法也可以参考https://github.com/gaboolic/vercel-reverse-proxy 
+更多使用方法也可以参考https://github.com/ytanck/vercel-reverse-proxy 
+
+## 另外一种方法也是用cloudflare的worker，但不用在链接后面拼/proxy/xxx,直接用部署后的链接或自定义域名就可以代理
+
+仓库地址：[cloudflare-worker-proxy](https://github.com/ytanck/cloudflare-worker-proxy)供大家参考
